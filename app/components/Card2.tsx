@@ -24,7 +24,9 @@ export function CardWithForm() {
     <Card className="w-[350px]">
       <CardHeader>
         <CardTitle>Create project</CardTitle>
-        <CardDescription>Deploy your new project in one-click.</CardDescription>
+        <CardDescription>
+          Deploy your omar new project in one-click.
+        </CardDescription>
       </CardHeader>
       <CardContent>
         <form>

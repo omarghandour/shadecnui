@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -8,14 +7,13 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { CardWithForm } from "./components/Card2";
-import { ModeToggle } from "./components/DarkButton";
+import { NavbarComponent } from "@/components/navbar";
 
 export default function Home() {
   return (
-    <div>
-      <ModeToggle />
+    <div className="h-full">
+      <NavbarComponent />
 
-      <Button></Button>
       <Card className="w-1/2 bg-red-400">
         <CardHeader className="">
           <CardTitle>Card Title</CardTitle>
